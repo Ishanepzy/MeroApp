@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/hello_world"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:id="@+id/headingText"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:autofillHints="name"
+        android:background="@color/divider"
+        android:hint="@string/name_entry"
+        android:inputType="text"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:textColorHint="#000000"
+        android:textSize="25sp"
+        android:id="@+id/editText"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/submit"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:id="@+id/submit_button" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cancel"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:id="@+id/cancel_button"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
