@@ -12,7 +12,8 @@
         android:layout_height="729dp"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
 
         <com.google.android.material.chip.ChipGroup
             android:layout_width="match_parent"
