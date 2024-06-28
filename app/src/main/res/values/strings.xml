@@ -12,6 +12,7 @@
     <string name="female">Female</string>
     <string name="country">Country</string>
     <string name="anonymous">Anonymous</string>
+    <string name="logo">Logo</string>
 
     <string-array name="country_list">
         <item>Nepal</item>
