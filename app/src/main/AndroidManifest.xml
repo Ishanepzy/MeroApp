@@ -8,22 +8,19 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileProgramming"
         tools:targetApi="31">
 
         <activity
-            android:name=".unit_4.Home"
+            android:name=".unit_5.FragmentSwitchActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".unit_4.About"/>
     </application>
-
 </manifest>
