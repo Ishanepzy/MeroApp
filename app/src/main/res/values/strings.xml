@@ -13,6 +13,9 @@
     <string name="country">Country</string>
     <string name="anonymous">Anonymous</string>
     <string name="logo">Logo</string>
+    <string name="frag1">moon fragment</string>
+    <string name="frag2"> sun fragment </string>
+    <string name="cross">X</string>
 
     <string-array name="country_list">
         <item>Nepal</item>
